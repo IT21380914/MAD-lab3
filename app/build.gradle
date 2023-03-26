@@ -8,6 +8,10 @@ android {
     namespace 'com.example.lab3databinding'
     compileSdk 33
 
+    buildFeatures {
+        dataBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.lab3databinding"
         minSdk 24
@@ -32,9 +36,7 @@ android {
         jvmTarget = '1.8'
     }
 
-    buildFeatures {
-        dataBinding true
-    }
+
 }
 
 dependencies {
